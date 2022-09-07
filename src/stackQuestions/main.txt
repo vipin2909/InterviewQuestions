@@ -1,0 +1,7 @@
+1. Wip list size -> 0
+2. add and edit po details -> size and parts mein limit set krni hai and vo -> refrence 12 max characters
+3. image mein left and right arrow mein background grey instead of using opacity
+4. width should be larger than height in image modal
+5. image modal apply krna hai bundle list pe customer po details mein
+6. issue no. 160 pending hai go throug it once and move done issue to inprogress
+7. check issue 253 also on external jira
