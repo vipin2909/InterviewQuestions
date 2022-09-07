@@ -95,4 +95,6 @@ public class MinStack {
         }
         Assert.assertEquals(-3, minStack.getMin());
     }
+
+    //
 }

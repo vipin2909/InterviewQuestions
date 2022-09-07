@@ -47,7 +47,7 @@ public class StackUsingQueue<T> {
             System.out.println(s.pop());
         }
         // first 0, 1, 2, 3, 4, 5, 6,
-        // total elements are 6 only then it print underflow !! also 
+        // total elements are 6 only then it print underflow !! also
 
     }
 }

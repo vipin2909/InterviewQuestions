@@ -11,7 +11,7 @@ public class MinIntStack {
 
     // and while popping out when number we are popping is less then
     // minEle then we need to store 2 * minEle - num as minEle
-    
+
 
     private Stack<Integer> stack = new Stack<>();
     private int min;
