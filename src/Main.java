@@ -2,16 +2,20 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
-import java.util.Stack;
 import java.util.StringTokenizer;
 
-public class StackUsingArray {
+// template file for competitive programming -> for fast inputs
+public class Main {
 
     BufferedReader br;
     StringTokenizer tok;
     PrintWriter out;
     int testCases;
 
+    /*
+     *@return string input
+     * @throws IOException
+     */
     public String next() throws IOException {
         while(tok == null || !tok.hasMoreTokens()) {
             tok = new StringTokenizer(br.readLine());
@@ -28,8 +32,8 @@ public class StackUsingArray {
     }
 
     /*
-    *@return long input
-    * @throws IOException
+     *@return long input
+     * @throws IOException
      */
     public long nextLong() throws IOException {
         return Long.parseLong(next());
@@ -52,12 +56,12 @@ public class StackUsingArray {
 
     public static void main(String[] args) {
         try {
-            StackUsingArray stackUsingArray = new StackUsingArray();
-            stackUsingArray.br = new BufferedReader(new InputStreamReader(System.in));
-            stackUsingArray.out = new PrintWriter(System.out);
-            stackUsingArray.solve();
-            stackUsingArray.br.close();
-            stackUsingArray.out.close();
+            Main main = new Main();
+            main.br = new BufferedReader(new InputStreamReader(System.in));
+            main.out = new PrintWriter(System.out);
+            main.solve();
+            main.br.close();
+            main.out.close();
         }
         catch(Throwable e) {
             e.printStackTrace();
